@@ -51,8 +51,8 @@ Examples:
         "-n",
         "--compound",
         type=str,
-        default="monthly",
-        help="Compounding frequency: daily, monthly, quarterly, annually, or integer (default: monthly)",
+        default="annually",
+        help="Compounding frequency: daily, monthly, quarterly, annually, or integer (default: annually)",
     )
 
     parser.add_argument(

@@ -76,7 +76,7 @@ def calculate_compound_interest(
     principal: Decimal,
     rate: Decimal,
     years: int,
-    compound_freq: int = 12,
+    compound_freq: int = 1,
     contribution: Decimal = Decimal("0"),
     contribution_freq: int = 12,
 ) -> ProjectionResult:
@@ -86,7 +86,7 @@ def calculate_compound_interest(
         principal: Starting amount
         rate: Annual interest rate as decimal (0.07 for 7%)
         years: Number of years
-        compound_freq: Compounding periods per year (12 = monthly)
+        compound_freq: Compounding periods per year (1 = annually)
         contribution: Regular contribution amount
         contribution_freq: Contribution periods per year (12 = monthly)
 
