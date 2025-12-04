@@ -7,7 +7,7 @@ Compound interest calculator with beautiful terminal output.
 ```bash
 # Clone the repository
 git clone <repo-url>
-cd ci
+cd compound
 
 # Install with rich output support (recommended)
 pip install -e ".[rich]"
